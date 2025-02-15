@@ -11,8 +11,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 设置自定义的 API 基本地址
-openai.api_base = "https://api.openai-hk.com/v1"
-openai.base_url = "https://api.openai-hk.com/v1"
+openai.api_base = "https://api.openai.com/v1"
+openai.base_url = "https://api.openai.com/v1"
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 # 设置 OpenAI API 密钥（请确保已设置环境变量 OPENAI_API_KEY）

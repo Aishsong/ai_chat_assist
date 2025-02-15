@@ -90,12 +90,10 @@ project-root/
    ```
 
 3. **配置环境变量**
-   (已配置可忽略此步)
    在 `backend` 目录下创建 `.env` 文件或直接设置系统环境变量，至少配置以下变量：
 
    ```env
    OPENAI_API_KEY=your_openai_api_key
-   DATABASE_URL=your_database_url
    ```
 
 4. **启动后端服务**
