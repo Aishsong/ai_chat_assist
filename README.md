@@ -74,7 +74,7 @@ project-root/
 1. **克隆仓库**
 
    ```bash
-   git clone https://github.com/your_username/your_repository.git
+   git clone git@github.com:Aishsong/ai_chat_assist.git
    cd your_repository/backend
    ```
 
