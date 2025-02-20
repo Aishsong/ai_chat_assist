@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
 import ChatBox from './components/ChatBox';
-import EntityPanel from './components/EntityPanel';
+import EntityPanel, { Entities } from './components/EntityPanel';
 
 const App: React.FC = () => {
-  const [entities, setEntities] = useState<{ [key: string]: string }>({});
+  // 初始化实体，确保包含 order_number、phone_number 和 address 三个字段
+  const [entities, setEntities] = useState<Entities>({
+    order_number: '',
+    phone_number: '',
+    address: '',
+  });
 
   return (
     <div style={{ display: 'flex', height: '100vh' }}>
